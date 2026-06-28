@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Photos - Chirag G.T.</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -13,7 +14,7 @@
 
 <body>
 
-    <!-- Navigation Bar -->
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 
         <div class="container">
@@ -43,7 +44,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" href="about.html">
+                        <a class="nav-link" href="about.html">
                             About Me
                         </a>
                     </li>
@@ -55,7 +56,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="photos.html">
+                        <a class="nav-link active" href="photos.html">
                             Photos
                         </a>
                     </li>
@@ -73,53 +74,63 @@
     <div class="container mt-5 pt-5">
 
         <h1 class="text-center mb-4">
-            About Myself
+            My Photo Gallery
         </h1>
 
-        <div class="card shadow p-4">
+        <p class="text-center">
+            A collection of my interests in music and technology.
+        </p>
 
-            <p>
-                Hello! My name is <strong>Chirag G.T.</strong>. I am currently studying
-                <strong>Bachelor of Science in Computer Science (BSc CS)</strong> at
-                King's College, Nepal.
-            </p>
+        <!-- Flexbox Gallery -->
 
-            <p>
-                I have a strong interest in programming, web development,
-                software development, and learning modern technologies.
-                I enjoy solving problems and continuously improving my technical skills.
-            </p>
+        <h2 class="mt-5 mb-3 text-center">
+            Music & Technology
+        </h2>
 
-            <p>
-                Besides academics, I am passionate about music.
-                I play drums and have worked as a stage manager for live concerts,
-                where I gained valuable experience in teamwork, organization,
-                and event management.
-            </p>
+        <div class="photos-flex">
 
-            <p>
-                My hobbies include:
-            </p>
+            <img src="images/Drums.jpeg"
+                 alt="Playing Drums">
 
-            <ul>
-                <li>Playing Drums</li>
-                <li>Listening to Music</li>
-                <li>Programming</li>
-                <li>Learning New Technologies</li>
-                <li>Traveling</li>
-            </ul>
+            <img src="images/Music.webp"
+                 alt="Music Setup">
 
-            <p>
-                My goal is to become a skilled software developer while continuing
-                to pursue my passion for music and creative projects.
-            </p>
+            <img src="images/Coding.webp"
+                 alt="Coding">
+
+            <img src="images/Concert.jpeg"
+                 alt="Concert Performance">
+
+        </div>
+
+        <!-- Grid Gallery -->
+
+        <h2 class="mt-5 mb-3 text-center">
+            Creative Gallery
+        </h2>
+
+        <div class="photos-grid">
+
+            <img src="images/Drums.jpeg"
+                 alt="Drums">
+
+            <img src="images/Music.webp"
+                 alt="Music">
+
+            <img src="images/Coding.webp"
+                 alt="Programming">
+
+            <img src="images/Concert.jpeg"
+                 alt="Live Concert">
 
         </div>
 
     </div>
 
     <!-- Bootstrap JS -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
